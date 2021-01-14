@@ -1,0 +1,33 @@
+
+/** {*/
+/*    border: 1px solid #000000;*/
+/*}*/
+
+
+header {
+    background-color: #a3a3a3;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+nav a {
+    color: #000000;
+    background-color: #b8b8b8;
+}
+
+main {
+    background-color: #6c6c6c;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #05006c;
+}
+
+main img {
+    display: none;
+}

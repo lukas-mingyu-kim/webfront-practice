@@ -196,14 +196,14 @@ input[type=submit]:active {
 /* HEADER */
 /* ----------------------------------------------- */
 
-/*header {*/
-/*    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero-min.jpg);*/
-/*    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero-min.jpg);*/
-/*    background-size: cover;*/
-/*    background-position: center;*/
-/*    height: 100vh;*/
-/*    background-attachment: fixed;*/
-/*}*/
+header {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero-min.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero-min.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
 
 .hero-text-box {
     position: absolute;
@@ -230,168 +230,11 @@ input[type=submit]:active {
     margin: 5px 0;
 }
 
-.logo { display: none; }
-.logo-black { display: block; }
-
-/*.section-search-bar {*/
-/*    position: absolute;*/
-/*    left: 152px;*/
-/*    top: 16px;*/
-/*    border-radius: 5px;*/
-/*    border: solid 1px #e9ecef;*/
-/*    text-decoration: none;*/
-/*    padding: 0 1.6rem;*/
-/*    height: 40px;*/
-/*    box-sizing: border-box;*/
-
-/*}*/
-
-.section-search-bar {
-    width: 30%;
-    margin: 0 auto;
-}
-
-.section-search-bar input[type=text],
-.section-search-bar select,
-.section-search-bar textarea {
-    width: 100%;
-    padding: 7px;
-    border-radius: 3px;
-    border: 1px solid #ccc;
-}
-
-.section-search-bar input,
-.section-search-bar button,
-.fixed-search-icon {
-    display: inline-block;
-}
-
-
-textarea {
-    height: 100px;
-}
-
-
-
-/* ----------------------------------------------- */
-/* FIXED-BAR */
-/* ----------------------------------------------- */
-
-/*#fixed-bar {*/
-/*    width: 100%;*/
-/*    background-color: #fff;*/
-/*    position: fixed;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    right: 0;*/
-/*    z-index: 100;*/
-/*}*/
-
-/*.fixed-bar-box-shadow {*/
-/*    box-sizing: border-box;*/
-/*    border-bottom: 1px solid rgba(0, 0, 0, 0.04);*/
-/*}*/
-
-/*#fixed-bar #fixed-bar-wrap {*/
-/*    width: 1024px;*/
-/*    margin: 0 auto;*/
-/*    padding: 16px 0;*/
-/*    position: relative;*/
-/*}*/
-
-/*h1 {*/
-/*    display: block;*/
-/*    font-size: 2em;*/
-/*    margin-block-start: 0.67em;*/
-/*    margin-block-end: 0.67em;*/
-/*    margin-inline-start: 0px;*/
-/*    margin-inline-end: 0px;*/
-/*    font-weight: bold;*/
-/*}*/
-
-/*#fixed-bar #fixed-bar-wrap #fixed-bar-search {*/
-/*    position: absolute;*/
-/*    left: 152px;*/
-/*    top: 16px;*/
-/*    border-radius: 5px;*/
-/*    border: solid 1px #e9ecef;*/
-/*    text-decoration: none;*/
-/*    padding: 0 1.6rem;*/
-/*    height: 40px;*/
-/*    box-sizing: border-box;*/
-/*}*/
-
-/*#fixed-bar #fixed-bar-wrap #fixed-bar-search .search-input-wrap {*/
-/*    display: flex;*/
-/*    justify-content: space-between;*/
-/*}*/
-
-/*.sr-only {*/
-/*    position: absolute;*/
-/*    width: 1px;*/
-/*    height: 1px;*/
-/*    padding: 0;*/
-/*    margin: -1px;*/
-/*    overflow: hidden;*/
-/*    clip: rect(0 0 0 0);*/
-/*    border: 0;*/
-/*}*/
-
-/*#fixed-bar #fixed-bar-wrap #fixed-bar-search .search-input-wrap .fixed-search-input {*/
-/*    display: block;*/
-/*    width: 340px;*/
-/*    border: none;*/
-/*    padding: 0;*/
-/*    margin: 0;*/
-/*    font-size: 16px;*/
-/*    color: #212529;*/
-/*    background-color: transparent;*/
-/*}*/
-
-/*#fixed-bar #fixed-bar-wrap #fixed-bar-search .search-input-wrap #header-search-button {*/
-/*    border: none;*/
-/*    margin: 0;*/
-/*    background-color: transparent;*/
-/*}*/
-
-/*.search-button {*/
-/*    background: none;*/
-/*    color: inherit;*/
-/*    border: none;*/
-/*    padding: 0;*/
-/*    font: inherit;*/
-/*    cursor: pointer;*/
-/*    outline: inherit;*/
-/*}*/
-
-/*#fixed-bar #fixed-bar-wrap #fixed-bar-search .search-input-wrap .fixed-search-icon {*/
-/*    width: 19px;*/
-/*    height: 19px;*/
-/*    fill: #868e96;*/
-/*    padding: 1rem 0;*/
-/*}*/
-
-/*div {*/
-/*    display: block;*/
-/*}*/
-
-/** {*/
-/*    margin: 0;*/
-/*    padding: 0;*/
-/*}*/
-
-
-
-/* ----------------------------------------------- */
-/* MEALS */
-/* ----------------------------------------------- */
-
-
 /* Main navi */
 .main-nav {
     float: right;
     list-style: none;
-    margin-top: 18px;
+    margin-top: 55px;
 }
 
 .main-nav li {
@@ -401,8 +244,8 @@ textarea {
 
 .main-nav li a:link,
 .main-nav li a:visited {
-    padding: 16px 0;
-    color: #555;
+    padding: 8px 0;
+    color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 90%;
